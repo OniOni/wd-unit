@@ -1,0 +1,25 @@
+{ 
+    "name" : "wd-test-runner"
+    , "description" : "Drive in-browser tests with WD."
+    , "tags" : ["web", "automation", "browser", "javascript", "jasmine"]
+    , "version" : "0.0.1"
+    , "author" : "Mathieu Sabourin <mathieu.c.sabourin@gmail.com>"
+    , "repository" : { 
+	"type" : "git"
+	, "url" : "https://github.com/OniOni/wd-test-runner.git"
+    }
+    , "bugs" : { 
+	"url" : "https://github.com/OniOni/wd-test-runner/issues" 
+    }
+    , "engines" : ["node"]
+    , "main" : "./lib/main"
+    , "directories" : { "lib" : "./lib" }
+    , "dependencies" : {
+	"wd" : "latest"
+	,"htmlparser": "latest"
+    }
+    , "devDependencies" : {
+	"wd" : "latest"
+	,"htmlparser": "latest"
+    }
+}
