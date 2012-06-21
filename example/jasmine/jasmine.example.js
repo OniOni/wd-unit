@@ -1,4 +1,4 @@
-var launcher = require('../lib/main');
+var launcher = require('../../lib/main');
 
 launcher.run({
     runner: 'jasmine',
