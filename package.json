@@ -2,7 +2,7 @@
     "name" : "wd-unit"
     , "description" : "Drive in-browser tests with WD."
     , "tags" : ["web", "automation", "browser", "javascript", "jasmine"]
-    , "version" : "0.0.1"
+    , "version" : "0.0.2"
     , "author" : "Mathieu Sabourin <mathieu.c.sabourin@gmail.com>"
     , "repository" : { 
 	"type" : "git"
