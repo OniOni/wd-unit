@@ -10,7 +10,7 @@ http://nodejs.org/#download
 ## Install
 
 ```shell
-npm install wd-parallel
+npm install wd-unit
 ```
 
 ## Authors
@@ -21,7 +21,7 @@ npm install wd-parallel
 
   * License - Apache 2: http://www.apache.org/licenses/LICENSE-2.0
 
-## Writing a test!
+## Running a test!
 
 Start by importing the required library.
 
@@ -29,7 +29,7 @@ Start by importing the required library.
 var launcher = require('wd-unit');
 ```
 
-Then you can go ahead and run your test by running the launcher
+Then you can go ahead and launch your test by running the launcher
 ```javascript
 launcher.run({
     runner: 'qunit',
@@ -50,3 +50,7 @@ Possible options are :
   - _Default_: '.'
 - __wd_args__: Arguments to be passes to WD.js. Check out [WD.js](https://github.com/admc/wd) docs for more info.
   - _Default_: {}
+
+## Want more frameworks ?
+
+Check out the [wiki](https://github.com/OniOni/wd-unit/wiki/Writting-pugins-for-testing-frameworks) about writting plugins.
