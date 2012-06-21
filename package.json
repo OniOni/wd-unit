@@ -1,5 +1,5 @@
 { 
-    "name" : "wd-test-runner"
+    "name" : "wd-unit"
     , "description" : "Drive in-browser tests with WD."
     , "tags" : ["web", "automation", "browser", "javascript", "jasmine"]
     , "version" : "0.0.1"
