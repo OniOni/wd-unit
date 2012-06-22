@@ -51,9 +51,11 @@ Possible options are :
 - __wd_args__: Arguments to be passes to WD.js. Check out [WD.js](https://github.com/admc/wd) docs for more info.
   - _Default_: {}
 
-## Take a look at our example code
+## Take a look at our examples
 
+- [Running tests in parallel](https://github.com/OniOni/wd-unit/wiki/Parallel-browsers)
 - [Saucelabs OnDemand](https://github.com/OniOni/wd-unit/wiki/Sauce-Ondemand)
+- [Parallel test with Sauce OnDemand](https://github.com/OniOni/wd-unit/wiki/Sauce-Ondemand-Parallel)
 
 ## Want more frameworks ?
 
