@@ -51,6 +51,11 @@ Possible options are :
 - __wd_args__: Arguments to be passes to WD.js. Check out [WD.js](https://github.com/admc/wd) docs for more info.
   - _Default_: {}
 
+## Local vs. Distant content
+
+- Your unit test can be hosted on a distant webserver, in which case wd-unit will work with the webserver. 
+- You can also work on loacl non hosted files, in this case wd-unit will run a very lightweight webserver which wd-unit will use to run tests. This webserver uses the root argument for finding content.
+
 ## Currently supported frameworks
 
 - [Jasmine](http://pivotal.github.com/jasmine/)
