@@ -39,7 +39,7 @@ launcher.run({
 ```
 
 Possible options are :
-- __runner__: Unit testing framework. You can currently use [Jasmine](http://pivotal.github.com/jasmine/) and [Qunit](http://docs.jquery.com/QUnit).
+- __runner__: Unit testing framework. 
 - __desired__: Desired capabilities for the browser running the test. 
   - _Default_: {browserName: 'firefox'}
 - __addr__: Base url with wich WD.js will work.
@@ -50,6 +50,12 @@ Possible options are :
   - _Default_: '.'
 - __wd_args__: Arguments to be passes to WD.js. Check out [WD.js](https://github.com/admc/wd) docs for more info.
   - _Default_: {}
+
+## Currently supported frameworks
+
+- [Jasmine](http://pivotal.github.com/jasmine/)
+- [Qunit](http://docs.jquery.com/QUnit)
+- [foounit](http://foounit.com/)
 
 ## Take a look at our examples
 
