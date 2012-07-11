@@ -2,14 +2,14 @@
     "name" : "wd-unit"
     , "description" : "Drive in-browser tests with WD."
     , "tags" : ["web", "automation", "browser", "javascript", "jasmine", "qunit", "foounit"]
-    , "version" : "0.0.5"
+    , "version" : "0.0.6"
     , "author" : "Mathieu Sabourin <mathieu.c.sabourin@gmail.com>"
     , "repository" : { 
 	"type" : "git"
-	, "url" : "https://github.com/OniOni/wd-test-runner.git"
+	, "url" : "https://github.com/OniOni/wd-unit.git"
     }
     , "bugs" : { 
-	"url" : "https://github.com/OniOni/wd-test-runner/issues" 
+	"url" : "https://github.com/OniOni/wd-unit/issues" 
     }
     , "engines" : ["node"]
     , "main" : "./lib/main"
