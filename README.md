@@ -39,7 +39,7 @@ launcher.run({
 ```
 
 Possible options are :
-- __runner__: Unit testing framework. You can currently use [Jasmine](http://pivotal.github.com/jasmine/) and [Qunit](http://docs.jquery.com/QUnit).
+- __runner__: Unit testing framework. 
 - __desired__: Desired capabilities for the browser running the test. 
   - _Default_: {browserName: 'firefox'}
 - __addr__: Base url with wich WD.js will work.
@@ -51,9 +51,22 @@ Possible options are :
 - __wd_args__: Arguments to be passes to WD.js. Check out [WD.js](https://github.com/admc/wd) docs for more info.
   - _Default_: {}
 
-## Take a look at our example code
+## Local vs. Distant content
 
+- Your unit test can be hosted on a distant webserver, in which case wd-unit will work with the webserver. 
+- You can also work on loacl non hosted files, in this case wd-unit will run a very lightweight webserver which wd-unit will use to run tests. This webserver uses the root argument for finding content.
+
+## Currently supported frameworks
+
+- [Jasmine](http://pivotal.github.com/jasmine/)
+- [Qunit](http://docs.jquery.com/QUnit)
+- [foounit](http://foounit.com/)
+
+## Take a look at our examples
+
+- [Running tests in parallel](https://github.com/OniOni/wd-unit/wiki/Parallel-browsers)
 - [Saucelabs OnDemand](https://github.com/OniOni/wd-unit/wiki/Sauce-Ondemand)
+- [Parallel test with Sauce OnDemand](https://github.com/OniOni/wd-unit/wiki/Sauce-Ondemand-Parallel)
 
 ## Want more frameworks ?
 
