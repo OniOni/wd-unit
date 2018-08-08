@@ -58,7 +58,7 @@ Possible options are :
 
 ## Currently supported frameworks
 
-- [Jasmine](http://pivotal.github.com/jasmine/)
+- [Jasmine](https://jasmine.github.io/)
 - [Qunit](http://docs.jquery.com/QUnit)
 - [foounit](http://foounit.com/)
 
